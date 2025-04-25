@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 
 // Define the Medical List schema
+//
 const medicalListSchema = new mongoose.Schema({
   Location: { type: String },
   'Hospital name': { type: String },
