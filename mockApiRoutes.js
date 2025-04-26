@@ -1,6 +1,6 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const Symptom = require("./models/Symptom");
+const Symptom = require("./models/symptom");
 
 const router = express.Router();
 
